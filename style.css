@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fredoka:wght@300..700&display=swap');
+:root{
+    --theme--Fredoka : Fredoka;
+    --theme--DynaPuff :DynaPuff;
+}
+
+#bg{
+    background-image:url('./img/i3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Option{
+    font-family: var(--theme--Fredoka);
+}
+#Qustion{
+    font-family: var(--theme--DynaPuff);
+}
+.btn{
+    font-family: var(--theme--DynaPuff);
+}
+h2{
+    font-family: var(--theme--Fredoka);
+}
+h1{
+    font-family:var(--theme--DynaPuff);
+    color: white;
+    font-size: 2.5rem;
+}
+.banner{
+    font-family:var(--theme--Fredoka);
+    font-size: 30px;
+}
